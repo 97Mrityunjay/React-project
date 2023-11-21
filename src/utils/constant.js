@@ -1,0 +1,1 @@
+export const CDN_Img_Url = `https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/`
