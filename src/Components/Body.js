@@ -50,12 +50,10 @@ const Body = ()=>{
                 {
                    
                     filteredRestaurant.map((restaurant)=>(
-                       
-                
-                           <RestaurantCard key = {restaurant.info.id} details = {restaurant.info} />
-                     
-                     
-                        
+                    <Link to = {`restaurantDetails/${restaurant.info.id}`}>
+                     <RestaurantCard key = {restaurant.info.id} details = {restaurant.info} />
+                    </Link>
+                           
                     ))
                     
                } 
